@@ -1,0 +1,7 @@
+!Texture
+Id: 555482d4-f588-4c5d-9473-6ec5eafb347a
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Textures/gold/gold_dif.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

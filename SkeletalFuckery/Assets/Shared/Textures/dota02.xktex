@@ -1,0 +1,8 @@
+!Texture
+Id: a4c8c4f0-61bc-48b3-9e1c-cb8870f78c6f
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/Textures/dota02.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+IsStreamable: false

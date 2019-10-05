@@ -1,0 +1,17 @@
+!Animation
+Id: b76fc006-04ef-480c-bf93-0687cc681e52
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/Animation/release_R.fbx
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: a46a4194-4303-4690-884b-dddd3191bec9:Models/HandModelRight Skeleton
+RootMotion: false
+PreviewModel: d0e0436a-54b6-4219-ae69-42b1c95ca215:Models/HandModelRight
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:00.1670000

@@ -1,0 +1,7 @@
+!Texture
+Id: ff3a438e-3dda-48a7-965b-8d7055e05795
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Textures/wood_nongloss/wood_nongloss_spc.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

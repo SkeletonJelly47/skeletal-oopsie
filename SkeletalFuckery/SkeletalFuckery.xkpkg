@@ -1,0 +1,43 @@
+!Package
+Id: 6bd4891c-91e6-44e7-836c-96819ef972b9
+SerializedVersion: {Assets: 0.0.4}
+Meta:
+    Name: SkeletalFuckery
+    Version: 1.0.0.0
+    Authors: []
+    Owners: []
+    RootNamespace: SkeletalFuckery
+    Dependencies:
+        -   Name: Xenko
+            Version: 3.0.0.9
+            RootAssets: []
+LocalDependencies: []
+Profiles:
+    -   Name: Shared
+        Platform: Shared
+        InheritProfiles: []
+        AssetFolders:
+            -   Path: Assets/Shared
+            -   Path: SkeletalFuckery.Game/Effects
+        ResourceFolders:
+            - Resources
+        OutputGroupDirectories: {}
+        ProjectReferences:
+            -   Id: b36a2518-b9a6-4c7d-94a9-ef88dc576529
+                Location: SkeletalFuckery.Game/SkeletalFuckery.Game.csproj
+                Type: Library
+    -   Name: Windows
+        Platform: Windows
+        InheritProfiles: []
+        AssetFolders:
+            -   Path: Assets/Windows
+        ResourceFolders: []
+        OutputGroupDirectories: {}
+        ProjectReferences:
+            -   Id: aa59d05b-bb5a-47bf-b40f-695deea77bd3
+                Location: SkeletalFuckery.Windows/SkeletalFuckery.Windows.csproj
+                Type: Executable
+ExplicitFolders: []
+Bundles: []
+TemplateFolders: []
+RootAssets: []

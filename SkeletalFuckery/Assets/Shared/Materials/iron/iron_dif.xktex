@@ -1,0 +1,7 @@
+!Texture
+Id: b3021949-c81c-4023-8a99-2d2cc6c0a6cb
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Textures/iron_blend/iron/iron_dif.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

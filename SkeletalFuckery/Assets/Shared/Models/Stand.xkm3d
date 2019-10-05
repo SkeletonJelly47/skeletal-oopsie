@@ -1,0 +1,17 @@
+!Model
+Id: 67f213da-70e8-4265-a559-9f0e77ca22d4
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/Stand/Pd_ground.FBX
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    444959dcd07ef6c7e59c8d0ee59c8d0e:
+        Name: ground_0
+        MaterialInstance:
+            Material: d16527e5-88da-4c7e-9c75-3ab1985273ba:Materials/DullSilver
+    7100a7c491e7cc898821031e8821031e:
+        Name: ground_1
+        MaterialInstance:
+            Material: bb5b2847-1025-470e-b551-eb9e607073ab:Materials/RedCoating
+Modifiers: {}
