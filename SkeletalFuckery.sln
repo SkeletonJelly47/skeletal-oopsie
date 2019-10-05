@@ -1,16 +1,16 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 14.0.23107.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SkeletalFuckery", "SkeletalFuckery", "{6BD4891C-91E6-44E7-836C-96819EF972B9}"
 	ProjectSection(XenkoPackage) = preProject
 		SkeletalFuckery/SkeletalFuckery.xkpkg = SkeletalFuckery/SkeletalFuckery.xkpkg
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkeletalFuckery.Windows", "SkeletalFuckery\SkeletalFuckery.Windows\SkeletalFuckery.Windows.csproj", "{AA59D05B-BB5A-47BF-B40F-695DEEA77BD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkeletalFuckery.Windows", "SkeletalFuckery\SkeletalFuckery.Windows\SkeletalFuckery.Windows.csproj", "{AA59D05B-BB5A-47BF-B40F-695DEEA77BD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkeletalFuckery.Game", "SkeletalFuckery\SkeletalFuckery.Game\SkeletalFuckery.Game.csproj", "{B36A2518-B9A6-4C7D-94A9-EF88DC576529}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkeletalFuckery.Game", "SkeletalFuckery\SkeletalFuckery.Game\SkeletalFuckery.Game.csproj", "{B36A2518-B9A6-4C7D-94A9-EF88DC576529}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,8 +89,14 @@ Global
 		{B36A2518-B9A6-4C7D-94A9-EF88DC576529}.Testing|Windows.ActiveCfg = Testing|Any CPU
 		{B36A2518-B9A6-4C7D-94A9-EF88DC576529}.Testing|Windows.Build.0 = Testing|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AA59D05B-BB5A-47BF-B40F-695DEEA77BD3} = {6BD4891C-91E6-44E7-836C-96819EF972B9}
 		{B36A2518-B9A6-4C7D-94A9-EF88DC576529} = {6BD4891C-91E6-44E7-836C-96819EF972B9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CD47587-E7B6-4E64-90F6-1E8CFA8F75B3}
 	EndGlobalSection
 EndGlobal

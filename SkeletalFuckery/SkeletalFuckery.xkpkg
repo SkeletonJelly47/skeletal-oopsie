@@ -40,4 +40,5 @@ Profiles:
 ExplicitFolders: []
 Bundles: []
 TemplateFolders: []
-RootAssets: []
+RootAssets:
+    - 3a7f48fd-f9bd-4d44-9241-0c644af556d2:BlocksScene

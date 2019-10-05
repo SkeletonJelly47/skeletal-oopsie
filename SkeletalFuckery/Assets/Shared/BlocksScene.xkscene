@@ -40,6 +40,7 @@ Hierarchy:
         - ref!! ec27a519-336e-4451-a38f-8de84cf7b68f
         - ref!! 5bbb0280-968d-4ab1-8f9c-c893d041a466
         - ref!! c4004f9a-4e8e-4173-8620-f16de113865b
+        - ref!! 5130767c-94f7-43c8-b34c-e2a76763ece5
     Parts:
         -   Entity:
                 Id: 000ce47b-bf22-4628-8f43-5c1e11a853d0
@@ -76,7 +77,8 @@ Hierarchy:
                 BasePartAsset: 90a50d16-e136-4ca3-be90-7ccf907d701e:BlocksPrefabs/Pillar0x5x0
                 BasePartId: 9a9e7e72-7cc0-4631-aee3-8ec36aad1662
                 InstanceId: 9afd9322-0a2e-42b1-99ef-3b6612d6e939
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: 02282705-568c-4df6-ab2c-a77559d221f5
                 Name: Gate2x3x1
                 Components:
@@ -121,7 +123,8 @@ Hierarchy:
                 BasePartAsset: df1a5b6d-ce3d-48b9-83b5-9a49d07f0791:BlocksPrefabs/Box3x3x3
                 BasePartId: fa9df93c-3b86-4404-96ca-decbb2f4171a
                 InstanceId: 175fa990-e3ab-48aa-9188-7bac575029b1
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: 0499eaf5-ba99-41ca-afcb-9ded9972b578
                 Name: GridBase10x10
                 Components:
@@ -192,15 +195,15 @@ Hierarchy:
                 Components:
                     7bf1a28d49b0f741abd4d920da8f4ad3: !TransformComponent
                         Id: 8da2f17b-b049-41f7-abd4-d920da8f4ad3
-                        Position: {X: -8.999999, Y: 6.2, Z: 16.6999989}
-                        Rotation: {X: -0.08583164, Y: -0.1729874, Z: -0.0151344351, W: 0.981060266}
+                        Position: {X: -0.0836639851, Y: 6.2, Z: -0.516189039}
+                        Rotation: {X: 4.931018E-08, Y: 0.707106769, Z: 0.707106769, W: -4.931018E-08}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     042f3eb1119c2b408aa3bf1e00af6d66: !CameraComponent
                         Id: b13e2f04-9c11-402b-8aa3-bf1e00af6d66
                         Name: null
                         Projection: Perspective
-                        Slot: 00000000-0000-0000-0000-000000000000
+                        Slot: 64ff26f8-fba7-49df-a877-8e5c8326854f
         -   Entity:
                 Id: 1474d948-0c3a-4a91-a2a3-07f858c3be8c
                 Name: Wall0x4x10Window
@@ -304,7 +307,8 @@ Hierarchy:
                 BasePartAsset: 7d035806-42b1-40d1-8393-741633b2921f:BlocksPrefabs/Gate1x2x1
                 BasePartId: f0bb0b32-100e-4c8e-87a2-1c58bc6085d0
                 InstanceId: a684214f-0ad1-441f-afc9-f8b52cbbfd32
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: 1c0e382a-d264-4f06-b2e1-6686bea48689
                 Name: Floor1x0x1
                 Components:
@@ -377,7 +381,8 @@ Hierarchy:
                 BasePartAsset: 3702c29b-0d2f-4ae7-ba9c-6279090bdcf8:BlocksPrefabs/Stairs1x1x1_50
                 BasePartId: f3850a2a-b73a-4459-b5ea-63a5b41c3889
                 InstanceId: f34fe37d-b1c6-48b8-86e2-65c1c2d8a2dd
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: 3181335f-8ee7-43c0-86a1-3b7bed5d5d65
                 Name: Box1x1x1
                 Components:
@@ -447,7 +452,8 @@ Hierarchy:
                                 ComputeTransmittance: false
                                 BiasParameters: {}
                         Intensity: 5.0
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: 3880e6af-35c6-476c-8a44-356d8d97c690
                 Name: Ramp1x1_2x2
                 Components:
@@ -522,7 +528,8 @@ Hierarchy:
                 BasePartAsset: 42c3065b-d112-4f0b-b6b5-4ee1242d6a1e:BlocksPrefabs/GridBase10x10
                 BasePartId: b045349c-565e-4488-9130-a795b0e3b229
                 InstanceId: d374e63d-72fa-40cc-ab49-89a9593d80ff
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: 3ab22c5c-dc41-432c-b165-410f74e66b58
                 Name: Wall0x2x5
                 Components:
@@ -533,7 +540,8 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             db07bec9b88cb84e9f8d6d3511eb10f2: ref!! c9be07db-8cb8-4eb8-9f8d-6d3511eb10f2
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: 47e76baa-a343-46f5-9aba-9b7fc4e56e09
                 Name: Wall0x2x2
                 Components:
@@ -575,7 +583,8 @@ Hierarchy:
                 BasePartAsset: 45302dd8-eb36-4bee-a900-557571bd8cf7:BlocksPrefabs/Stairs1x1x1
                 BasePartId: 3407ac9a-47da-4e2e-a7b3-8a0864509493
                 InstanceId: d90beb77-49d2-4562-93c8-aee64b823672
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: 4c9f90ce-1d58-4cb3-8909-ae880a3f1a33
                 Name: Pillar0x5x0
                 Components:
@@ -586,6 +595,27 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             e96f0faea3329947a94aed18021d4112: ref!! ae0f6fe9-32a3-4799-a94a-ed18021d4112
+        -   Entity:
+                Id: 5130767c-94f7-43c8-b34c-e2a76763ece5
+                Name: Player
+                Components:
+                    107ee5e21aa9defdc6373ac33aa65b76: !TransformComponent
+                        Id: 32a5254d-e583-4e73-a766-f431729e67a8
+                        Position: {X: 0.0, Y: 0.0, Z: -0.467678875}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    332320712ad57a1fb54d826bce6cd66e: !ModelComponent
+                        Id: 432f84f5-ab10-4c91-8951-b1abb9491618
+                        Model: 03799dd8-e598-4ef2-90ab-87b9e1d8cb81:Models/mannequinModel
+                        Materials: {}
+                    7d8e9ac3ab6af9467f4c22e19e346427*: !SkeletalFuckery.Player,SkeletalFuckery.Game
+                        Id: 9eab4d40-5c5e-4275-a190-64d47ae6c1f1
+                        Health: 10
+            Base:
+                BasePartAsset: 96060276-18db-471e-9369-d70941f9f5a5:Prefabs/Player
+                BasePartId: bf531f2d-303f-446d-8e83-93a49fdf3ea9
+                InstanceId: 7ea39b62-8acf-4430-b3dd-a162cd33190c
         -   Entity:
                 Id: 54fd003d-84b4-49f3-9547-a301505bebda
                 Name: Gate2x3x1
@@ -630,7 +660,8 @@ Hierarchy:
                 BasePartAsset: 43950056-9025-4050-bace-0bba6fd10c8a:BlocksPrefabs/Gate2x3x1
                 BasePartId: 200881f5-5aa8-444c-976c-bbcbd86bce28
                 InstanceId: 99fe3d35-d74b-4a18-bc6b-f3c1432466c3
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: 5bbb0280-968d-4ab1-8f9c-c893d041a466
                 Name: Stairs2x2x4
                 Components:
@@ -672,7 +703,8 @@ Hierarchy:
                 BasePartAsset: 4588b9b2-8e96-4c10-9818-634290205875:BlocksPrefabs/Ramp1x1_2x1
                 BasePartId: dcbcec6d-0b9a-404a-87ee-0a0f69fc314e
                 InstanceId: c916d16a-c79d-42b8-bb62-2d92d8767b41
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: 5e46e812-870f-4855-8d7c-f274bda4f4a7
                 Name: Box2x1x1
                 Components:
@@ -683,7 +715,8 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             93de224b90e2294a896f8bb03d0c6705: ref!! 4b22de93-e290-4a29-896f-8bb03d0c6705
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: 63a31d67-35d9-43f9-aa82-cd9191a3476e
                 Name: Stairs1x1x2
                 Components:
@@ -694,7 +727,8 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             1fd94bf6112e05418d8b81f8ee7c0a28: ref!! a2b71446-c6de-4859-89b5-6e663dd517ee
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: 698c8aeb-9f1a-4192-9270-21f53ec19dd5
                 Name: Wall0x1x2
                 Components:
@@ -850,7 +884,8 @@ Hierarchy:
                 BasePartAsset: f9c67a88-8c4c-4fdb-8555-79037587a927:BlocksPrefabs/Wall0x2x2Window
                 BasePartId: 33a6f301-d9b7-4a2a-b0c9-7771e250fd3e
                 InstanceId: de098a94-272e-4664-b80b-9b0de24e18c7
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: 6fa84149-d38b-4ad2-958b-afafe8cece97
                 Name: Stairs1x1x1
                 Components:
@@ -861,7 +896,8 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             b414357d024a2341aeb2cdcbb9f81f63: ref!! 7d3514b4-4a02-4123-aeb2-cdcbb9f81f63
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: 7079b079-0156-4469-8cb8-915421de02f8
                 Name: Ramp1x1x1
                 Components:
@@ -1033,7 +1069,8 @@ Hierarchy:
                 BasePartAsset: 1143bc51-ce7d-424f-aab3-f0c9f57ae7e1:BlocksPrefabs/Box4x2x1
                 BasePartId: 4d6499da-edbb-4e5e-b914-03e6a89a0dcd
                 InstanceId: 5c3be470-a26a-4a4a-9d0d-583f32ab944c
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: 8d691f06-9fe9-4630-bfca-791a8d0858e2
                 Name: Gate1x2x1
                 Components:
@@ -1112,7 +1149,8 @@ Hierarchy:
                 BasePartAsset: 37dfd115-c2ff-46db-8960-bab6e3c97215:BlocksPrefabs/Floor5x0x2
                 BasePartId: b7714728-e14c-4905-8c02-6e657d62f341
                 InstanceId: 2bdba35d-3de3-4bf1-8556-b671966ef09f
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: 9d6ebd0b-ecf3-4af1-a51c-8c4b8fd09b47
                 Name: Wall0x2x5Window
                 Components:
@@ -1188,7 +1226,8 @@ Hierarchy:
                 BasePartAsset: 0e0de5df-6831-49bf-8e56-1da0a9c928c8:BlocksPrefabs/Box3x1x1
                 BasePartId: b86036f4-0ce3-4794-9947-a61378390d41
                 InstanceId: 1d75793e-8065-4ed6-8f4c-f9f669c709c0
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: a6b69e4f-7e0e-4002-89f0-dea96f103289
                 Name: Table2x2x2
                 Components:
@@ -1332,7 +1371,8 @@ Hierarchy:
                 BasePartAsset: d5a1451b-5012-48ce-b167-ccdefc206d60:BlocksPrefabs/Table1x1x1
                 BasePartId: cf7c3aec-f184-4a84-9dd5-11bd8fd8ac2c
                 InstanceId: 1a1414ba-f773-4fd0-b509-22cc9bf57c91
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: c4004f9a-4e8e-4173-8620-f16de113865b
                 Name: Wall0x4x10Window
                 Components:
@@ -1343,7 +1383,8 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             c444819e77a60441a6144bd7bd8a4a23: ref!! 84d708ec-895a-4412-84a4-ba4e86dde44d
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: c6412b9a-5187-4dde-9fe5-650f3adf1b38
                 Name: Floor3x0x1
                 Components:
@@ -1354,7 +1395,8 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             60662553bdfa37429f6fafb13c6d383f: ref!! 53256660-fabd-4237-9f6f-afb13c6d383f
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: c75034b4-1db5-45fc-b83d-4d18c7966495
                 Name: Box3x1x1
                 Components:
@@ -1365,7 +1407,8 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             a2d6ca1adcf6ec41a4c7d29eb46ea480: ref!! 1acad6a2-f6dc-41ec-a4c7-d29eb46ea480
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: d4ca2999-8f98-487f-8e29-e5dd4263ee11
                 Name: Ramp1x1_2x1
                 Components:
@@ -1441,7 +1484,8 @@ Hierarchy:
                 BasePartAsset: 3b5b283c-5060-44a5-b1ac-9c89c177f1f4:BlocksPrefabs/Table2x2x2
                 BasePartId: c6aca1a5-dba9-46d2-a6f5-c4fc1ab74824
                 InstanceId: 5ab11753-45fd-46f6-9b90-17ef1b25d110
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: e34386b3-80bf-48a7-8626-e5e393b94fdb
                 Name: Ramp2x2_1x1
                 Components:
@@ -1452,7 +1496,8 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             e43cba260f6d6747931db7e9fc00d84b: ref!! 26ba3ce4-6d0f-4767-931d-b7e9fc00d84b
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: e9de0a75-6729-4226-b161-1c227cc3039a
                 Name: Pendilum0x2x0Ball
                 Components:
@@ -1463,7 +1508,8 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             9d67f01a066af148a472bf6f7c513743: ref!! 1af0679d-6a06-48f1-a472-bf6f7c513743
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: ebe6ec91-2765-4a12-b971-e07d04d08fb9
                 Name: Box3x3x3
                 Components:
@@ -1474,7 +1520,8 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             cafed28ac2678c4e84c546d7570eabd3: ref!! 8ad2feca-67c2-4e8c-84c5-46d7570eabd3
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: ec27a519-336e-4451-a38f-8de84cf7b68f
                 Name: Floor5x0x2
                 Components:
@@ -1485,7 +1532,8 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             60662553bdfa37429f6fafb13c6d383f: ref!! 91607c85-1158-4d61-b2c9-b23a90ff726d
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: eddc0db3-145b-4e17-8e34-aa466e5fa31e
                 Name: Stairs1x1x1_25
                 Components:
@@ -1527,7 +1575,8 @@ Hierarchy:
                 BasePartAsset: 79b845f2-9fc2-42c4-8d9a-86ff98ca34ec:BlocksPrefabs/Ramp2x2_1x1
                 BasePartId: 44b7da69-2103-4350-9aad-0d799a748f93
                 InstanceId: de2de29e-22d9-4f40-80c9-ee3ef687d7d7
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: f4ff2c51-7f9f-4055-8942-52c6968899ee
                 Name: Stairs1x1x1_50
                 Components:
@@ -1572,7 +1621,8 @@ Hierarchy:
                 BasePartAsset: 666a16dd-3982-4a67-8913-6951fa396a18:BlocksPrefabs/Wall0x2x2
                 BasePartId: f73cb16c-30b9-4200-b872-56885e7023e2
                 InstanceId: f0fad975-ec8f-4645-b5b0-174351c15f30
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: fc1f94f3-9217-40ef-bf78-494744525e07
                 Name: Wall0x2x2Window
                 Components:
@@ -1583,7 +1633,8 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             9bd6c2826922c24ba23d41e3a7a958f6: ref!! 82c2d69b-2269-4bc2-a23d-41e3a7a958f6
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: fcc7f0dc-52ae-4cb8-9fcd-5bc6d28efdf4
                 Name: Table1x1x1
                 Components:
@@ -1594,7 +1645,8 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             d034df218f970f4fa828a0756b037ec6: ref!! 21df34d0-978f-4f0f-a828-a0756b037ec6
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: fdda19a5-e288-4554-9f82-66accd5a6e5a
                 Name: Floor2x0x1
                 Components:
@@ -1605,7 +1657,8 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             983c7b3bf13aac40829f8af4045b77c1: ref!! 3b7b3c98-3af1-40ac-829f-8af4045b77c1
-        -   Entity:
+        -   Folder: Obstacles
+            Entity:
                 Id: ffd38b55-0a6f-4333-a9b0-cfcc4ec5c9e9
                 Name: Box4x2x1
                 Components:

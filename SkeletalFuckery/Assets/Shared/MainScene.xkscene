@@ -11,6 +11,8 @@ Hierarchy:
         - ref!! 62432f0a-d18f-484e-b7e5-b7d9fd67a0bd
         - ref!! 4df6c1ff-1a98-476e-8344-aba1b7d5f0d6
         - ref!! 897b227a-e2be-4e91-bd66-ce7fd3f9b4de
+        - ref!! 0f0459ee-2f9f-496b-b86a-38eefada4744
+        - ref!! d89fc487-4431-4b0a-86ec-7107dd585c2f
     Parts:
         -   Entity:
                 Id: 0963dfc3-f357-48a7-93cc-9248a7211eba
@@ -37,6 +39,20 @@ Hierarchy:
                                 ComputeTransmittance: false
                                 BiasParameters: {}
                         Intensity: 20.0
+        -   Entity:
+                Id: 0f0459ee-2f9f-496b-b86a-38eefada4744
+                Name: SwordModel
+                Components:
+                    58bc59e75f85b3b8001fd071874df192: !TransformComponent
+                        Id: 67ccb002-93c2-4070-bf91-13417721cc05
+                        Position: {X: -0.578021049, Y: 0.0, Z: 1.52679372}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6f63d7302333dd3c0c02c9b632aa13fe: !ModelComponent
+                        Id: cf3a9c43-5fd9-4a65-8367-22eeb1dfa55f
+                        Model: d10a7f44-a665-4223-ac4a-dd587b035e86:Models/SwordModel
+                        Materials: {}
         -   Entity:
                 Id: 4df6c1ff-1a98-476e-8344-aba1b7d5f0d6
                 Name: Ground
@@ -80,8 +96,11 @@ Hierarchy:
                         Children: {}
                     ce582fb734d5f32f2317b41f31df9025: !ModelComponent
                         Id: 8eff1462-8fad-4d1f-9f73-06bd6301b5ea
-                        Model: 252903c9-1ac9-4545-a253-32f858868b37:Sphere
+                        Model: null
                         Materials: {}
+                    a7731a316b9e2a84b687891acdb2e88c: !SkeletalFuckery.Player,SkeletalFuckery.Game
+                        Id: a294d55b-91ed-4a39-bdd0-a58946b1a599
+                        Health: 10
         -   Entity:
                 Id: ae5b82a4-3aa6-4742-8875-df8007c88273
                 Name: Camera
@@ -106,3 +125,17 @@ Hierarchy:
                         KeyboardRotationSpeed: {X: 3.0, Y: 3.0}
                         MouseRotationSpeed: {X: 1.0, Y: 1.0}
                         TouchRotationSpeed: {X: 1.0, Y: 0.7}
+        -   Entity:
+                Id: d89fc487-4431-4b0a-86ec-7107dd585c2f
+                Name: mannequinModel
+                Components:
+                    76f94ececca00ad2131aeab599a09203: !TransformComponent
+                        Id: 60a23504-773a-4c17-bc48-7c10c8ee3199
+                        Position: {X: -1.21921945, Y: 0.0, Z: 1.15951526}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    43f241a4c87a11ccb3fefeab60748b49: !ModelComponent
+                        Id: 1d4e5e22-eb2d-40ee-b2dc-d1cbf84111e5
+                        Model: 03799dd8-e598-4ef2-90ab-87b9e1d8cb81:Models/mannequinModel
+                        Materials: {}

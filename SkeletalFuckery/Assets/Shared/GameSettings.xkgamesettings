@@ -2,7 +2,7 @@
 Id: a60efb1c-eb13-42aa-9011-64640ef99031
 SerializedVersion: {Xenko: 2.1.0.3}
 Tags: []
-DefaultScene: 09a6644c-347f-4664-99bf-5820f7239b27:MainScene
+DefaultScene: 3a7f48fd-f9bd-4d44-9241-0c644af556d2:BlocksScene
 GraphicsCompositor: 100af9ee-4c21-45a6-b169-69f142f73eb0:GraphicsCompositor
 Defaults:
     - !Xenko.Audio.AudioEngineSettings,Xenko.Audio
